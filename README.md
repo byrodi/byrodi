@@ -11,7 +11,7 @@
 
 ### More
 
-- Agent skills: [humanizer](https://github.com/byrodi/humanizer), [project-docs](https://github.com/byrodi/project-docs), [github-publish](https://github.com/byrodi/github-publish), [chrome-devtools](https://github.com/byrodi/chrome-devtools), [minimal-code-discipline](https://github.com/byrodi/minimal-code-discipline)
+- Agent skills: [humanizer](https://github.com/byrodi/humanizer), [project-docs](https://github.com/byrodi/project-docs), [github-publish](https://github.com/byrodi/github-publish), [chrome-devtools](https://github.com/byrodi/chrome-devtools), [minimal-code-discipline](https://github.com/byrodi/minimal-code-discipline), [ui-gallery](https://github.com/byrodi/ui-gallery)
 - Code style: [java](https://github.com/byrodi/java-code-style), [typescript](https://github.com/byrodi/typescript-code-style), [rust](https://github.com/byrodi/rust-code-style)
 - Wynncraft: [wynncard](https://github.com/byrodi/wynncard), [wynnhermes](https://github.com/byrodi/wynnhermes), [wynncraft-collection](https://github.com/byrodi/wynncraft-collection)
 
