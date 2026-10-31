@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/banner.png">
-  <img src="./assets/banner.gif" alt="rodi." width="100%">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/rodi.png">
+  <img src="./assets/rodi.gif" alt="rodi." width="100%">
 </picture>
 
 ### Things I build
