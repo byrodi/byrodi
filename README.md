@@ -1,4 +1,7 @@
-<img src="./assets/banner.svg" alt="rodi." width="100%">
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/banner.png">
+  <img src="./assets/banner.gif" alt="rodi." width="100%">
+</picture>
 
 ### Things I build
 
