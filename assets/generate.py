@@ -1,7 +1,7 @@
 """Regenerates the profile: python3 assets/generate.py
 
 Reads public repositories and contributions from the GitHub API, redraws the banner, the project
-cards and the activity chart in this folder, and rewrites the marked sections of README.md.
+cards and the activity chart in this folder, and rewrites the marked section of README.md.
 .github/workflows/profile.yml runs it on a schedule. The token comes from GH_TOKEN, or from
 `gh auth token` on a local machine.
 
@@ -15,14 +15,6 @@ LOGIN = os.environ.get("GITHUB_REPOSITORY_OWNER", "byrodi")
 
 LATEST = 6  # project cards, newest push first
 DAYS = 30  # window of the activity chart
-# Lists under "More". A repository goes to the last group whose topic it has.
-GROUPS = [
-    ("Products", {"saas", "desktop-app"}),
-    ("Agent skills", {"agent-skills", "agent-skill"}),
-    ("Code style", {"code-style"}),
-    ("Wynncraft", {"wynncraft", "minecraft"}),
-]
-OTHER, FORKS = "Other projects", "Forks"
 
 ROSE, CREAM, INK = "#d78494", "#fdeff2", "#8e3a50"
 SW = 22  # wordmark stroke width in logo units
@@ -320,23 +312,6 @@ def themed(path, alt, attrs):
             f'<img src="./assets/{path}-light.svg" alt="{html.escape(alt)}" {attrs}></picture>')
 
 
-def link(repo):
-    return f'[{repo["name"]}]({repo["url"]})'
-
-
-def more(repos):
-    """Markdown lists of the repositories that have no card."""
-    grouped = {}
-    for repo in repos:
-        tags = set(topics(repo))
-        group = FORKS if repo["isFork"] else next(
-            (name for name, wanted in reversed(GROUPS) if tags & wanted), OTHER)
-        grouped.setdefault(group, []).append(repo)
-    order = [name for name, _ in GROUPS] + [OTHER, FORKS]
-    return "\n".join(f"- {name}: {', '.join(link(repo) for repo in grouped[name])}"
-                     for name in order if name in grouped)
-
-
 def fill(text, section, body):
     pattern = rf"(<!-- {section}:start -->).*?(<!-- {section}:end -->)"
     if not re.search(pattern, text, flags=re.S):
@@ -348,9 +323,8 @@ def main():
     today = datetime.datetime.now(datetime.timezone.utc).date()
     user = fetch(today)
 
-    repos = [r for r in user["repositories"]["nodes"] if not r["isArchived"] and r["name"] != LOGIN]
-    latest = [r for r in repos if not r["isFork"] and r["description"]][:LATEST]
-    rest = [r for r in repos if r not in latest]
+    latest = [r for r in user["repositories"]["nodes"]
+              if not r["isArchived"] and not r["isFork"] and r["description"] and r["name"] != LOGIN][:LATEST]
 
     contributions = user["contributionsCollection"]
     counts = {day["date"]: day["contributionCount"]
@@ -379,7 +353,6 @@ def main():
     with open(README) as fh:
         text = fh.read()
     text = fill(text, "latest", f"<p>\n{cards}\n</p>")
-    text = fill(text, "more", more(rest))
     with open(README, "w") as fh:
         fh.write(text)
 

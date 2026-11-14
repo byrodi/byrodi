@@ -17,17 +17,6 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg"><img src="./assets/activity-light.svg" alt="Contributions and commits by repository in the last 30 days" width="100%"></picture>
 
-### More
-
-<!-- more:start -->
-- Products: [proxyrun-releases](https://github.com/byrodi/proxyrun-releases)
-- Agent skills: [chrome-devtools](https://github.com/byrodi/chrome-devtools), [humanizer](https://github.com/byrodi/humanizer), [skills](https://github.com/byrodi/skills), [github-publish](https://github.com/byrodi/github-publish), [ui-gallery](https://github.com/byrodi/ui-gallery)
-- Code style: [java-code-style](https://github.com/byrodi/java-code-style), [typescript-code-style](https://github.com/byrodi/typescript-code-style)
-- Wynncraft: [wynncard](https://github.com/byrodi/wynncard), [wynnhermes](https://github.com/byrodi/wynnhermes)
-- Other projects: [sketchdraw](https://github.com/byrodi/sketchdraw)
-- Forks: [winget-pkgs](https://github.com/byrodi/winget-pkgs), [Wynntils](https://github.com/byrodi/Wynntils)
-<!-- more:end -->
-
 <p align="right">
   <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/mark-dark.svg"><img src="./assets/mark-light.svg" alt="r." height="28"></picture>
 </p>
