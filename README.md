@@ -1,23 +1,32 @@
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/rodi.png">
-  <img src="./assets/rodi.gif" alt="rodi." width="100%">
-</picture>
+<img src="./assets/rodi.svg" alt="rodi." width="100%">
 
-### Things I build
+### Latest
 
+<!-- latest:start -->
 <p>
-  <a href="https://github.com/byrodi/skills"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/skills-dark.svg"><img src="./assets/cards/skills-light.svg" alt="skills: plugin marketplace for my agent skills in Claude Code and Codex" width="49%"></picture></a>
-  <a href="https://github.com/byrodi/sketchdraw"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/sketchdraw-dark.svg"><img src="./assets/cards/sketchdraw-light.svg" alt="sketchdraw: hand-drawn diagrams from Mermaid and UI sketches from JSON" width="49%"></picture></a>
-  <a href="https://github.com/byrodi/frontend-design"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/frontend-design-dark.svg"><img src="./assets/cards/frontend-design-light.svg" alt="frontend-design: the light pink-plum design system this page is drawn in" width="49%"></picture></a>
-  <a href="https://github.com/byrodi/proxyrun-releases"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/proxyrun-dark.svg"><img src="./assets/cards/proxyrun-light.svg" alt="proxyrun: free per-app proxy client for Windows and Linux/WSL" width="49%"></picture></a>
+  <a href="https://github.com/byrodi/easyappoint.online"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/easyappoint.online-dark.svg"><img src="./assets/cards/easyappoint.online-light.svg" alt="easyappoint.online: Appointment bot and web calendar for self-employed specialists in Max and Telegram." width="49%"></picture></a>
+  <a href="https://github.com/byrodi/tidebot"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/tidebot-dark.svg"><img src="./assets/cards/tidebot-light.svg" alt="tidebot: A programming game where you write a script and a small fishing boat follows it." width="49%"></picture></a>
+  <a href="https://github.com/byrodi/frontend-design"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/frontend-design-dark.svg"><img src="./assets/cards/frontend-design-light.svg" alt="frontend-design: Light pink-plum design system for sites, web apps and desktop UI, with CSS tokens and an interactive HTML starter." width="49%"></picture></a>
+  <a href="https://github.com/byrodi/personaltube"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/personaltube-dark.svg"><img src="./assets/cards/personaltube-light.svg" alt="personaltube: Your own YouTube home feed, picked by AI from your watch history." width="49%"></picture></a>
+  <a href="https://github.com/byrodi/wynncraft-collection"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/wynncraft-collection-dark.svg"><img src="./assets/cards/wynncraft-collection-light.svg" alt="wynncraft-collection: Personal Wynncraft collection with a gallery of full-green mythics and a checklist of every set item." width="49%"></picture></a>
+  <a href="https://github.com/byrodi/project-docs"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/project-docs-dark.svg"><img src="./assets/cards/project-docs-light.svg" alt="project-docs: English project documentation in docs/ that coding agents read first and humans understand at a glance, kept in sync with the code as the agent works." width="49%"></picture></a>
 </p>
+<!-- latest:end -->
+
+### Last 30 days
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg"><img src="./assets/activity-light.svg" alt="Contributions and commits by repository in the last 30 days" width="100%"></picture>
 
 ### More
 
-- Products: [easyappoint](https://github.com/byrodi/easyappoint.online), an appointment bot and calendar for specialists at [easyappoint.online](https://easyappoint.online)
-- Agent skills: [humanizer](https://github.com/byrodi/humanizer), [project-docs](https://github.com/byrodi/project-docs), [github-publish](https://github.com/byrodi/github-publish), [chrome-devtools](https://github.com/byrodi/chrome-devtools), [ui-gallery](https://github.com/byrodi/ui-gallery)
-- Code style: [java](https://github.com/byrodi/java-code-style), [typescript](https://github.com/byrodi/typescript-code-style)
-- Wynncraft: [wynncard](https://github.com/byrodi/wynncard), [wynnhermes](https://github.com/byrodi/wynnhermes), [wynncraft-collection](https://github.com/byrodi/wynncraft-collection)
+<!-- more:start -->
+- Products: [proxyrun-releases](https://github.com/byrodi/proxyrun-releases)
+- Agent skills: [chrome-devtools](https://github.com/byrodi/chrome-devtools), [humanizer](https://github.com/byrodi/humanizer), [skills](https://github.com/byrodi/skills), [github-publish](https://github.com/byrodi/github-publish), [ui-gallery](https://github.com/byrodi/ui-gallery)
+- Code style: [java-code-style](https://github.com/byrodi/java-code-style), [typescript-code-style](https://github.com/byrodi/typescript-code-style)
+- Wynncraft: [wynncard](https://github.com/byrodi/wynncard), [wynnhermes](https://github.com/byrodi/wynnhermes)
+- Other projects: [sketchdraw](https://github.com/byrodi/sketchdraw)
+- Forks: [winget-pkgs](https://github.com/byrodi/winget-pkgs), [Wynntils](https://github.com/byrodi/Wynntils)
+<!-- more:end -->
 
 <p align="right">
   <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/mark-dark.svg"><img src="./assets/mark-light.svg" alt="r." height="28"></picture>
