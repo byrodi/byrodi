@@ -4,12 +4,12 @@
 
 <!-- latest:start -->
 <p>
+  <a href="https://github.com/byrodi/umbra-shadows-drg"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/umbra-shadows-drg-dark.svg"><img src="./assets/cards/umbra-shadows-drg-light.svg" alt="umbra-shadows-drg: Deep Rock Galactic mod: every flare casts round, soft shadows in its class colour, and headlamps cast shadows too." width="49%"></picture></a>
   <a href="https://github.com/byrodi/easyappoint.online"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/easyappoint.online-dark.svg"><img src="./assets/cards/easyappoint.online-light.svg" alt="easyappoint.online: Appointment bot and web calendar for self-employed specialists in Max and Telegram." width="49%"></picture></a>
   <a href="https://github.com/byrodi/tidebot"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/tidebot-dark.svg"><img src="./assets/cards/tidebot-light.svg" alt="tidebot: A programming game where you write a script and a small fishing boat follows it." width="49%"></picture></a>
   <a href="https://github.com/byrodi/frontend-design"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/frontend-design-dark.svg"><img src="./assets/cards/frontend-design-light.svg" alt="frontend-design: Light pink-plum design system for sites, web apps and desktop UI, with CSS tokens and an interactive HTML starter." width="49%"></picture></a>
   <a href="https://github.com/byrodi/personaltube"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/personaltube-dark.svg"><img src="./assets/cards/personaltube-light.svg" alt="personaltube: Your own YouTube home feed, picked by AI from your watch history." width="49%"></picture></a>
   <a href="https://github.com/byrodi/wynncraft-collection"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/wynncraft-collection-dark.svg"><img src="./assets/cards/wynncraft-collection-light.svg" alt="wynncraft-collection: Personal Wynncraft collection with a gallery of full-green mythics and a checklist of every set item." width="49%"></picture></a>
-  <a href="https://github.com/byrodi/project-docs"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/project-docs-dark.svg"><img src="./assets/cards/project-docs-light.svg" alt="project-docs: English project documentation in docs/ that coding agents read first and humans understand at a glance, kept in sync with the code as the agent works." width="49%"></picture></a>
 </p>
 <!-- latest:end -->
 
